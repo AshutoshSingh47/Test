@@ -18,7 +18,8 @@ public class Main {
 			j=sc.nextInt();
 			implied.insert(j);
 		}
-		implied.show();
+		//implied.show();
+		implied.reverse();
 	}
 
 }

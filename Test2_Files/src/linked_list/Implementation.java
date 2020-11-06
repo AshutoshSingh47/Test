@@ -73,5 +73,29 @@ public void show(){
 	}
 		System.out.println(node.data);
 }
+public void reverse()
+{
+	if(head==null)
+	{
+		System.out.println("List is Empty");
+	}
+	else{
+	Node<E>n=head;
+	Node<E>last=n.next;
+	Node<E>prev=null;
+	while(n!=null)
+	{   
+		
+	}
+	last=n;
+	System.out.println("Reversed Linked List : ");
+	while(last!=null)
+	{
+		System.out.print(last.data);
+		last=last.next;
+		
+	}
+	}
+}
 }
 
