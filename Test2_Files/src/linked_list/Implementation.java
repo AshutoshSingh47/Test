@@ -81,17 +81,19 @@ public void reverse()
 	}
 	else{
 	Node<E>n=head;
-	Node<E>last=n.next;
+	Node<E>last=null;
 	Node<E>prev=null;
 	while(n!=null)
-	{   
-		
+	{   last=n.next;
+		n.next=prev;
+		prev=n;
+		n=last;
 	}
-	last=n;
-	System.out.println("Reversed Linked List : ");
+	last=prev;
+	System.out.print("Reversed Linked List : ");
 	while(last!=null)
 	{
-		System.out.print(last.data);
+		System.out.print(last.data+" ");
 		last=last.next;
 		
 	}
