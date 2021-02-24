@@ -3,11 +3,12 @@ import java.util.Scanner;
 public class Main {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		My_Stack<Integer>stack =new My_Stack<>();
 		int popped,peeked,size;size=0;
-		System.out.println("Enter size");
-		size=sc.nextInt();
-		System.out.println("Enter element in the stack");
+		My_Stack<Integer>stack =new My_Stack<>();
+		
+//		System.out.println("Enter size");
+//		size=sc.nextInt();
+//		System.out.println("Enter element in the stack");
 //		for(int i=0;i<size;i++)
 //		{   int element=sc.nextInt();
 //			stack.push(element);
@@ -27,7 +28,7 @@ public class Main {
 		System.out.println("Popped Element = "+popped);
 		popped=stack.pop();
 		System.out.println("Popped Element = "+popped);
-		stack.display();
+	
 		
 	}
 
