@@ -11,6 +11,9 @@ public class output6 {
 		char e='\u0000';byte f=0;short g=0;
 		double h=0.0d;boolean i=false;
 		System.out.println(x+" "+y+" "+d+" "+e+" "+f+" "+g+" "+h+" "+i);
+		x=123456789;
+		d=(long)x;
+		System.out.println(d+" "+x);
 	}
 
 }
