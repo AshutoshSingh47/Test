@@ -15,6 +15,7 @@ public class output7 {
                     if(i%j==0) {
                     c++;}
                 }
+                
                 if(c==2){
                 if(i>max){
                 max=i;}}
