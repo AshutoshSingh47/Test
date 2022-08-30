@@ -12,7 +12,6 @@ public class output10 {
         {
 			max=Math.max(max,a[i]);
         }
-		
 		System.out.print(max);
         int index=-1;
         int b[]=new int[max+1];
