@@ -6,6 +6,10 @@ public class output20 {
 		Scanner sc=new Scanner(System.in);
 		System.out.print("Enter limit : ");
 		int n=sc.nextInt();
+		if(n%2==0) {
+			System.out.println("Invalid !");
+		}
+		else {
 		int i,j,k,sp=n;
 		
 		//first half
@@ -120,7 +124,8 @@ public class output20 {
 				
 			}
 			System.out.println();
-		}		
+		}	
+		}
 	}
 
 }
